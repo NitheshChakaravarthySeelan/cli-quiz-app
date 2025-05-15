@@ -28,6 +28,8 @@ def ask_questions(questions):
 
 def main():
 	print("Welcome to the CLI Quiz App!")
+	print("Welcome to the CLI Quiz App!")
+	input("Press Enter to start the quiz...")
 	questions = load_questions()
 	total = len(questions)
 	score = ask_questions(questions)
